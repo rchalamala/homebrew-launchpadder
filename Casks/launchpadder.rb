@@ -4,10 +4,11 @@ cask "launchpadder" do
 
   url "https://github.com/Molay/LaunchPadder/releases/download/v#{version}/LaunchPadder-v#{version}.zip",
       verified: "github.com/Molay/LaunchPadder/"
-
   name "LaunchPadder"
-  desc "macOS LaunchPad tool that organizes and sorts apps and folders on LaunchPad according to certain rules"
+  desc "LaunchPad tool that organizes and sorts apps and folders"
   homepage "https://github.com/Molay/LaunchPadder"
+
+  depends_on macos: ">= :big_sur"
 
   app "LaunchPadder.app"
 
