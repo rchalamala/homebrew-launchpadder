@@ -3,7 +3,6 @@ cask "launchpadder" do
   sha256 "e6f22aec28546b3ab418cb06c9a26c696126c4ec4daeeaebd1a427a8c8b86390"
 
   url "https://github.com/Molay/LaunchPadder/releases/download/v#{version}/LaunchPadder-v#{version}.zip",
-      verified: "github.com/Molay/LaunchPadder/"
   name "LaunchPadder"
   desc "LaunchPad tool that organizes and sorts apps and folders"
   homepage "https://github.com/Molay/LaunchPadder"
